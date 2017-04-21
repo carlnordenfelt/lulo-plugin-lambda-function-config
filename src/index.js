@@ -1,6 +1,6 @@
 'use strict';
 
-var aws = require('aws-sdk'); // eslint-disable-line import/no-extraneous-dependencies
+var aws = require('aws-sdk'); 
 var lambda = new aws.Lambda({ apiVersion: '2015-03-31' });
 
 var pub = {};

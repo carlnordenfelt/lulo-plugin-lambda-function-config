@@ -1,6 +1,6 @@
 {
   "name": "lulo-plugin-lambda-function-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "lint": "eslint src tests",
     "test-unit": "NODE_ENV=TEST istanbul cover --include-all-sources true node_modules/.bin/_mocha ./tests/unit -- --recursive",
@@ -42,5 +42,8 @@
     "mockery": "1.7.0",
     "should": "9.0.2",
     "sinon": "1.17.4"
+  },
+  "dependencies": {
+    "aws-sdk": "2.44.0"
   }
 }

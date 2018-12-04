@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/carlnordenfelt/lulo-plugin-lambda-function-config",
   "devDependencies": {
+    "aws-sdk": "*",
     "chai": "3.5.0",
     "coveralls": "2.11.9",
     "eslint": "3.0.1",
